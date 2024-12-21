@@ -4,7 +4,7 @@ title: 14Numbers
 permalink: /14numbers/
 ---
 
-# 14Numbers
+# Introduction
 
 Info on game to come!
 
