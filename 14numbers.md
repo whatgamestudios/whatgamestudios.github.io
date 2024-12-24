@@ -6,5 +6,5 @@ permalink: /14numbers/
 
 # Introduction
 
-Info on game to come!
-
+14Numbers is a puzzle game in which everyone in the world is trying to solve the same puzzle. There is a new puzzle each day.  You have 14 numbers and need to come up with three equations to solve for the daily target number.
+ 
