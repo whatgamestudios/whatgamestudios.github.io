@@ -18,6 +18,8 @@ permalink: blog/:year/:month/:title
 job.title: "Making games that truely mean something"
 excerpt_separator: "<!--more-->"
 
+include: .well-known
+
 # SEO stuff
 # google_author: ""
 # google_site_verification: ""
