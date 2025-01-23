@@ -1,10 +1,10 @@
 ---
 layout: page
 title: 14Numbers App callback
-permalink: /14numbers/app/callback
+permalink: /14numbers/app/callback1
 ---
 
-This is the 14Numbers app *callback* page. 
+This is the 14Numbers app *callback1* page. 
 
 If you are here, you are looking at links used within the app.
 

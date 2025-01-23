@@ -4,7 +4,7 @@
            {
              "appIDs": ["Y664WYV696.com.nelladragon.numbers"],
              "components": [
-                 { "/": "/*" }
+                 { "/": "/14numbers/app/*" }
              ]
            }
        ]
