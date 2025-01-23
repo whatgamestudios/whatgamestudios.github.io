@@ -1,10 +1,10 @@
 ---
 layout: page
 title: 14Numbers App loutout
-permalink: /14numbers/app/logout
+permalink: /14numbers/app/logout1
 ---
 
-This is the 14Numbers app *logout* page. 
+This is the 14Numbers app *logout1* page. 
 
 If you are here, you are looking at links used within the app.
 
