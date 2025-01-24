@@ -14,8 +14,4 @@ Test going to:
 
 [callback](./app/callback)
 
-[callback1](./app/callback1)
-
 [logout](./app/logout)
-
-[logout1](./app/logout1)
