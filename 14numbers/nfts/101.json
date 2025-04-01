@@ -1,0 +1,24 @@
+{
+    "name": "Bright Cats",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/101brightcats.png",
+    "tokenId": "101",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen1"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 25
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Burbura"
+      }
+    ]
+  }
+  
