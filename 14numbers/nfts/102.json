@@ -1,0 +1,24 @@
+{
+    "name": "Mixed Flowers",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/102fantasyflowers.png",
+    "tokenId": "102",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen1"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 100
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Elen Lane"
+      }
+    ]
+  }
+  
