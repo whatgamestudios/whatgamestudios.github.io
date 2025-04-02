@@ -9,7 +9,7 @@ permalink: /14numbers/
 <table>
 <tbody>
 <tr>
-  <td><img src="./14numbers/nfts/scenes.png" width="1000">
+  <td><img src="./nfts/scenes.png" width="1000">
   <td valign="top">14Numbers is a puzzle game in which everyone in the world is trying to solve the same puzzle. There is a new puzzle each day.  You have 14 numbers and need to come up with three equations to solve for the daily target number.</td>
   </td>
 </tr>
@@ -22,8 +22,8 @@ permalink: /14numbers/
 <table>
 <tbody>
 <tr>
-  <td valign="top"><a href="./14numbers/nfts.md">Gen1 NFTs</a> will be released in April, 2025. This first release has four NFTs: Golden Fans, Bright Cats, Fantasy Flowers, and Yellow Flowers.</td>
-  <td><a href="./14numbers/nfts.md"><img src="./14numbers/nfts/100goldenfans.png" width="500"></a>
+  <td valign="top"><a href="./nfts">Gen1 NFTs</a> will be released in April, 2025. This first release has four NFTs: Golden Fans, Bright Cats, Fantasy Flowers, and Yellow Flowers.</td>
+  <td><a href="./nfts.md"><img src="./nfts/100goldenfans.png" width="500"></a>
   </td>
 </tr>
 </tbody>
