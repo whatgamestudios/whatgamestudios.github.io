@@ -36,13 +36,8 @@ The roadmap for 14Numbers (as of mid-February 2025) is:
 
 * Android support
 * Improve experience for tablets.
-* Handle failure cases:
-  * Handle no-network situations when phone has no connection to the internet.
-  * Handle not-logged in for publishing and checkin.
 * Improve screens:
   * Implement setup screen: time zone.
-  * Make open splash screen slicker
-  * Rework Stats screen
   * Rework Credits screen
 * NFT support: 
   * Deploy ERC1155 NFT contract.
