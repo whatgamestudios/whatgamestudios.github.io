@@ -29,6 +29,9 @@ permalink: /14numbers/
 </tbody>
 </table>
 
+# Download
+14Numbers can be downloaded via our [Download Page](./download).
+
 
 # Roadmap
 
