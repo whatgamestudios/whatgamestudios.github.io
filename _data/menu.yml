@@ -4,3 +4,8 @@
 #
 - title: "14Numbers"
   href: "/14numbers/"
+  subcategories:
+    - subtitle: "Download"
+      subhref: "/14numbers/download"
+    - subtitle: "NFTs"
+      subhref: "/14numbers/nfts"
