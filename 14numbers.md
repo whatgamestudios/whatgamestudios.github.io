@@ -4,6 +4,10 @@ title: 14Numbers
 permalink: /14numbers/
 ---
 
+
+<img style="float: right;" src="./14numbers-logo.png">
+
+
 # Introduction
 
 <table>
@@ -15,6 +19,8 @@ permalink: /14numbers/
 </tr>
 </tbody>
 </table>
+
+<br>
 
 # NFTs
 
@@ -29,27 +35,21 @@ permalink: /14numbers/
 </tbody>
 </table>
 
+<br>
+
 # Download
 14Numbers can be downloaded via our [Download Page](./download).
 
 
+<br>
+
+
 # Roadmap
 
-The roadmap for 14Numbers (as of mid-February 2025) is:
+The roadmap for 14Numbers (as of May 2025) is:
 
 * Android support
 * Improve experience for tablets.
-* Improve screens:
-  * Implement setup screen: time zone.
-  * Rework Credits screen
-* NFT support: 
-  * Deploy ERC1155 NFT contract.
-  * Mint Series 1 NFTs
-  * NFT integration
-  * NFT claiming contract
-  * NFT claiming flow in app
-  * Mint Series 2 NFTs and set them up for claiming
-  * Set-up Token Trove support
-* Passport Play Game page
-  * Implement Passport screen, linking to the Passport page.
+* Drop rate screen showing probability of claim certain NFTs.
+* Add number of owned NFTs to Scene Detail screen.
 
