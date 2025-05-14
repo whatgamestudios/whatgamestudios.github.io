@@ -5,7 +5,7 @@ permalink: /14numbers/
 ---
 
 
-<img style="float: right;" src="./14numbers-logo.png">
+<img style="float: right;" src="./14numbers-logo.png"  width="100">
 
 
 # Introduction
