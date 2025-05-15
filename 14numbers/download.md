@@ -4,14 +4,12 @@ title: 14Numbers Download
 permalink: /14numbers/download/
 ---
 
+<img style="float: right;" src="../14numbers-logo.png"  width="100">
+
+14Numbers is available as a Beta release. Our goal is to have the general release of the game in June 2025.
+
 <table>
 <tbody>
-<tr>
-  <td valign="top" colspan=2>14Numbers is available as a Beta release. Our goal is to have the general release of the game in June 2025.
-  </td>
-  <td width="50%"><img src="../14numbers-logo.png"></td>
-</tr>
-<tr><td colspan=3>&nbsp;</td></tr>
 <tr>
   <td><a href="https://testflight.apple.com/join/skEb4Fx5"><img src="apple-store.svg" width="300"></a></td>
   <td><a href="https://testflight.apple.com/join/skEb4Fx5"><img src="testflight.jpg" width="100"></a></td>
