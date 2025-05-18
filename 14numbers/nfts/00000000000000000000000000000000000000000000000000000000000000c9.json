@@ -1,0 +1,24 @@
+{
+    "name": "Cats",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/201cats.png",
+    "tokenId": "201",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen2"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 50
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Natalia Zagory"
+      }
+    ]
+  }
+  

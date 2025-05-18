@@ -1,0 +1,24 @@
+{
+    "name": "Clocks",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/100clocks.png",
+    "tokenId": "200",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen2"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Mythical"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 20
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Usova Olga"
+      }
+    ]
+  }
+  

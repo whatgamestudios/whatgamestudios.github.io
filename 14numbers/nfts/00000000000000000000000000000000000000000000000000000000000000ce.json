@@ -1,0 +1,24 @@
+{
+    "name": "Garden",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/206garden.png",
+    "tokenId": "206",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen2"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 1000
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Burbura"
+      }
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+{
+    "name": "Tea",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/202tea.png",
+    "tokenId": "202",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen2"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 100
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Olka Kostenko"
+      }
+    ]
+  }
+  

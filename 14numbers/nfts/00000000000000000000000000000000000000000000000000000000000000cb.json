@@ -1,0 +1,24 @@
+{
+    "name": "Circuit",
+    "image": "https://whatgamestudios.github.io/14numbers/nfts/203circuit.png",
+    "tokenId": "203",
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "Gen2"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Max Supply",
+        "value": 100
+      },
+      {
+        "trait_type": "Artist",
+        "value": "Amgun"
+      }
+    ]
+  }
+  
