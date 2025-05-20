@@ -46,7 +46,7 @@ The screen background used in game can be changed by going to the Scene screen. 
 <br>
 
 # Privacy Policy
-Information about your data and 14Numbers is contained our our [Privacy Policy](./download) page.
+Information about your data and 14Numbers is contained our our [Privacy Policy](./privacy-policy) page.
 <br>
 
 # Roadmap
