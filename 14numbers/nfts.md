@@ -4,7 +4,7 @@ title: 14Numbers NFTs
 permalink: /14numbers/nfts/
 ---
 
-# Gen1 NFTs
+# <a name="gen1"></a>Gen1 NFTs
 
 <table>
 <thead>
@@ -52,7 +52,7 @@ permalink: /14numbers/nfts/
 </tbody>
 </table>
 
-# Gen2 NFTs
+# <a name="gen2"></a>Gen2 NFTs
 
 <table>
 <thead>
