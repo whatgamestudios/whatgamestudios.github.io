@@ -53,6 +53,10 @@ Information about your data and 14Numbers is contained our our [Privacy Policy](
 Information about how to delete your account related to 14Numbers is contained our our [Account Deletion](./account-deletion) page.
 <br>
 
+# Investor Warning
+14Numbers uses Non-Fungible Tokens (NFTs). Please read the [Investor Warning](./investor-warning) page if you are considering buying 14Numbers NFTs.
+<br>
+
 
 # Roadmap
 
