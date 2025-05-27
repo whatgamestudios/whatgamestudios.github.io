@@ -49,6 +49,11 @@ The screen background used in game can be changed by going to the Scene screen. 
 Information about your data and 14Numbers is contained our our [Privacy Policy](./privacy-policy) page.
 <br>
 
+# Account Deletion
+Information about how to delete your account related to 14Numbers is contained our our [Account Deletion](./account-deletion) page.
+<br>
+
+
 # Roadmap
 
 The roadmap for 14Numbers (as of May 2025) is:

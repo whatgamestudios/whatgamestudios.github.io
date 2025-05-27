@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 14Numbers NFTs
+title: 14Numbers Privacy Policy
 permalink: /14numbers/privacy-policy/
 ---
 
