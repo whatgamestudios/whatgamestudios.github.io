@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 14Numbers Account Deletion
-permalink: /14numbers/privacy-policy/
+permalink: /14numbers/account-deletion/
 ---
 
 # Account Deletion
