@@ -82,7 +82,11 @@ var canvas = document.getElementById('background');
 var context = canvas.getContext('2d');
 
 // This will resize the canvas to make it cover the screen
-context.canvas.width  = window.innerWidth;
+width = 0;
+if (960 > window.innerWidth) {
+    width = (window.innterWidth - 960) / 2;
+}
+context.canvas.width  = width;
 context.canvas.height = window.innerHeight;
 
 var bits = new Array();
