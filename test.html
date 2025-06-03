@@ -4,26 +4,25 @@ layout: default
 
 <style>
 /* CSS styles to position and layer the canvas */
-#background-left, #background-right {
+#background-left {
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1;
     pointer-events: none; /* This ensures the canvas doesn't interfere with clicking */
 }
-
-#background-left {
-    left: 0;
-}
-
 #background-right {
+    position: fixed;
+    top: 0;
     right: 0;
+    z-index: 1;
+    pointer-events: none; /* This ensures the canvas doesn't interfere with clicking */
 }
 
 .home {
     position: relative;
     z-index: 2;
-}
-</style>
+}</style>
 
 <div class="home">
     <canvas id="background-left" width="512" height="360"></canvas>
@@ -48,24 +47,29 @@ function Bit (distance){
     this.color = colors[Math.floor(Math.random() * colors.length)]; // Randomly select from our new colors
     
     // x and y positions are randomized
-    this.xpos = Math.random() * canvas.width;
-    this.ypos = Math.random() * 2 * canvas.height - canvas.height;
+    this.xpos = Math.random() * canvasLeft.width;
+    this.ypos = Math.random() * 2 * canvasLeft.height - canvasLeft.height;
     this.text = Math.floor(Math.random() * words.length);
 
     // this draw the text for current frame
-    this.draw = function(context){
+    this.draw = function(){
         // Formatting the text to display
-        context.fillStyle = this.color;
-        context.font = this.font;
+        contextLeft.fillStyle = this.color;
+        contextLeft.font = this.font;
+        contextRight.fillStyle = this.color;
+        contextRight.font = this.font;
         
         var text = words[this.text];
-        var textWidth = context.measureText("W.").width;
+        var textWidth = contextLeft.measureText("W.").width;
         
         // we need to draw the characters of the text
         // one by one from top to bottom
         for(var i=0; i<text.length; i++){
-            var charaterWidth = context.measureText(text[i]).width;
-            context.fillText( text[i], 
+            var charaterWidth = contextLeft.measureText(text[i]).width;
+            contextLeft.fillText( text[i], 
+                this.xpos - charaterWidth/2, 
+                this.ypos + i*textWidth);
+            contextRight.fillText( text[i], 
                 this.xpos - charaterWidth/2, 
                 this.ypos + i*textWidth);
         }
@@ -73,10 +77,10 @@ function Bit (distance){
     
     // this will update the text for next frame
     this.tick = function(){
-        if(this.ypos > canvas.height){
+        if(this.ypos > canvasLeft.height){
             // if text crosses the bottom of the screen then reset 
-            this.ypos = - canvas.height;
-            this.xpos = Math.random() * canvas.width;
+            this.ypos = - canvasLeft.height;
+            this.xpos = Math.random() * canvasLeft.width;
             this.text = Math.floor(Math.random() * words.length);
         }
         else
@@ -96,21 +100,18 @@ var canvasRight = document.getElementById('background-right');
 var contextLeft = canvasLeft.getContext('2d');
 var contextRight = canvasRight.getContext('2d');
 
-// This will resize the canvases to make them cover the screen
+// This will resize the canvas to make it cover the screen
 function resizeCanvas() {
     let width = 0;
     if (window.innerWidth > 960) {
         width = (window.innerWidth - 960) / 2;
     }
-    
-    // Set dimensions for both canvases
     contextLeft.canvas.width = width;
     contextLeft.canvas.height = window.innerHeight;
     contextRight.canvas.width = width;
     contextRight.canvas.height = window.innerHeight;
-    
-    // Position the right canvas
-    canvasRight.style.right = width + 'px';
+  
+    canvasRight.style.right = width + 'px';  
 }
 
 // Initial resize
@@ -119,36 +120,28 @@ resizeCanvas();
 // Handle window resize
 window.addEventListener('resize', resizeCanvas);
 
-var bitsLeft = new Array();
-var bitsRight = new Array();
-for(var i = 0; i < 300; ++i) {
-    bitsLeft.push(new Bit(20 + 80 * Math.random()));
-    bitsRight.push(new Bit(20 + 80 * Math.random()));
-}
+var bits = new Array();
+for(var i = 0; i < 300; ++i)
+    bits.push(new Bit(20 + 80 * Math.random()));
 
 function reDraw(){
-    // Clear both canvases
+    // Clear the canvas
     contextLeft.fillStyle = 'rgba(0,0,0,0.4)';
     contextLeft.fillRect(0, 0, canvasLeft.width, canvasLeft.height);
     contextRight.fillStyle = 'rgba(0,0,0,0.4)';
     contextRight.fillRect(0, 0, canvasRight.width, canvasRight.height);
 
-    // Draw on left canvas
-    for(var bit in bitsLeft){
-        bitsLeft[bit].draw(contextLeft);
-        bitsLeft[bit].tick();
-    }
-
-    // Draw on right canvas
-    for(var bit in bitsRight){
-        bitsRight[bit].draw(contextRight);
-        bitsRight[bit].tick();
+    // Draw every text element
+    for(var bit in bits){
+        bits[bit].draw();
+        bits[bit].tick();
     }
 }
 
 // This will call 'reDraw' at every 33 milliseconds. 
 // So, our animation will run at 30fps (1000/33 ≈ 30).
 setInterval(reDraw, 33);
+
 </script>
     
 </div>
