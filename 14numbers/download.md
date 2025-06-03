@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: numberspage
 title: 14Numbers Download
 permalink: /14numbers/download/
 ---

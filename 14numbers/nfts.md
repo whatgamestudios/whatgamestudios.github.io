@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: numberspage
 title: 14Numbers NFTs
 permalink: /14numbers/nfts/
 ---

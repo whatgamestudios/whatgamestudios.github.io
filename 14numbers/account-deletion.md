@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: numberspage
 title: 14Numbers Account Deletion
 permalink: /14numbers/account-deletion/
 ---

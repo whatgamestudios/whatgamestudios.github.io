@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: numberspage
 title: 14Numbers Privacy Policy
 permalink: /14numbers/privacy-policy/
 ---

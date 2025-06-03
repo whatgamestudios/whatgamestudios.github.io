@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: numberspage
 title: 14Numbers Investor Warning
 permalink: /14numbers/investor-warning/
 ---
