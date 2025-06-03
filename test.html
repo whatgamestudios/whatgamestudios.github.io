@@ -4,17 +4,24 @@ layout: default
 
 <style>
 /* CSS styles to position and layer the canvas */
-#background {
-    position: absolute; /* or fixed */
+#background-left, #background-right {
+    position: fixed;
     top: 0;
+    z-index: 1;
+}
+
+#background-left {
     left: 0;
-    z-index: -1; /* Place behind other elements */
+}
+
+#background-right {
+    right: 0;
 }
 </style>
 
 <div class="home">
-    <canvas id="background" width="512" height="360">
-    </canvas>
+    <canvas id="background-left" width="512" height="360"></canvas>
+    <canvas id="background-right" width="512" height="360"></canvas>
 		
 <p style="color:White;">Welcome to Whatgame Studios!</p>
 
@@ -40,7 +47,7 @@ function Bit (distance){
     this.text = Math.floor(Math.random() * words.length);
 
     // this draw the text for current frame
-    this.draw = function(){
+    this.draw = function(context){
         // Formatting the text to display
         context.fillStyle = this.color;
         context.font = this.font;
@@ -78,21 +85,21 @@ function Bit (distance){
     };
 }
 
-var canvas = document.getElementById('background');
-var context = canvas.getContext('2d');
+var canvasLeft = document.getElementById('background-left');
+var canvasRight = document.getElementById('background-right');
+var contextLeft = canvasLeft.getContext('2d');
+var contextRight = canvasRight.getContext('2d');
 
-// This will resize the canvas to make it cover the screen
+// This will resize the canvases to make them cover the screen
 function resizeCanvas() {
     let width = 0;
     if (window.innerWidth > 960) {
         width = (window.innerWidth - 960) / 2;
     }
-    context.canvas.width = width;
-    context.canvas.height = window.innerHeight;
-    
-    // Position canvas on the left side
-    canvas.style.left = '0';
-    canvas.style.position = 'fixed';
+    contextLeft.canvas.width = width;
+    contextLeft.canvas.height = window.innerHeight;
+    contextRight.canvas.width = width;
+    contextRight.canvas.height = window.innerHeight;
 }
 
 // Initial resize
@@ -101,19 +108,30 @@ resizeCanvas();
 // Handle window resize
 window.addEventListener('resize', resizeCanvas);
 
-var bits = new Array();
-for(var i = 0; i < 300; ++i)
-    bits.push(new Bit(20 + 80 * Math.random()));
+var bitsLeft = new Array();
+var bitsRight = new Array();
+for(var i = 0; i < 300; ++i) {
+    bitsLeft.push(new Bit(20 + 80 * Math.random()));
+    bitsRight.push(new Bit(20 + 80 * Math.random()));
+}
 
 function reDraw(){
-    // before drawing clear entire screen
-    context.fillStyle = 'rgba(0,0,0,0.4)';
-    context.fillRect(0, 0, canvas.width, canvas.height);
+    // Clear both canvases
+    contextLeft.fillStyle = 'rgba(0,0,0,0.4)';
+    contextLeft.fillRect(0, 0, canvasLeft.width, canvasLeft.height);
+    contextRight.fillStyle = 'rgba(0,0,0,0.4)';
+    contextRight.fillRect(0, 0, canvasRight.width, canvasRight.height);
 
-    // draw every text elements
-    for(var bit in bits){
-        bits[bit].draw();
-        bits[bit].tick();
+    // Draw on left canvas
+    for(var bit in bitsLeft){
+        bitsLeft[bit].draw(contextLeft);
+        bitsLeft[bit].tick();
+    }
+
+    // Draw on right canvas
+    for(var bit in bitsRight){
+        bitsRight[bit].draw(contextRight);
+        bitsRight[bit].tick();
     }
 }
 
