@@ -19,7 +19,7 @@ layout: default
 <p style="color:White;">Welcome to Whatgame Studios!</p>
 
 <script>
-var colors = ['#101810', '#008F8f', '#55FF55', '#BBFFBB'];
+var colors = ['#ADD8E6', '#9370DB', '#FFC0CB']; // Light blue, purple, and pink
 var words = [
     "1", "2", "3", "4", "5", "6",
     "7", "8", "9", "10", "25",
@@ -27,12 +27,12 @@ var words = [
     
 function Bit (distance){
     // size and speed are inversely proportional to distance
-    this.speed = 160 / distance;
+    this.speed = 80 / distance; // Reduced from 160 to 80 to make it slower
     this.fontSize = parseInt(Math.max(8, Math.min(4*this.speed, 20)));
     
     // font and color will be decided accordingly
     this.font = this.fontSize.toString() +'pt Calibri';
-    this.color = colors[(this.fontSize-8)/4];
+    this.color = colors[Math.floor(Math.random() * colors.length)]; // Randomly select from our new colors
     
     // x and y positions are randomized
     this.xpos = Math.random() * canvas.width;
