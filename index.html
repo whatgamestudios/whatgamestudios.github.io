@@ -6,10 +6,11 @@ layout: numberspage
 .home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
     text-align: center;
+    padding-top: 15vh; /* Position from top of screen */
 }
 
 .welcome-text {
@@ -22,9 +23,18 @@ layout: numberspage
     font-weight: bold;
     color: #522d80; /* Using the purple color from your theme */
 }
+
+.game-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.game-title a:hover {
+    text-decoration: underline;
+}
 </style>
 
 <div class="home">
     <p class="welcome-text">Welcome to Whatgame Studios - makers of</p>
-    <p class="game-title">14Numbers</p>
+    <p class="game-title"><a href="/14Numbers">14numbers</a></p>
 </div>
