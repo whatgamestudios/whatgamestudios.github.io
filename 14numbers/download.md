@@ -22,8 +22,9 @@ permalink: /14numbers/download/
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr>
   <td><img src="google-play.png" width="300"></td>
-  <td>&nbsp;</td>
-  <td valign="top">Android / Google Phone / Samsung: Coming soon</td>
+  <td valign="top">For Google, Samsung, Motorola, Nokia, Oppo, and other Android OS phones and tablets, the 14Numbers app is available via Closed Beta Test.<br>
+  To join the Beta Test team, email us at 
+  <a href="mailto:fourteennumbersgame@gmail.com">fourteennumbersgame@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
