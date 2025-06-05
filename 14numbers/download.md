@@ -11,7 +11,7 @@ permalink: /14numbers/download/
 <table style="width:100%">
 <tbody>
 <tr>
-  <td colspan=2 style="width:50%"></td>
+  <td style="width:50%"></td>
   <td></td>
 </tr>
 <tr>
