@@ -57,14 +57,3 @@ Information about how to delete your account related to 14Numbers is contained o
 14Numbers uses Non-Fungible Tokens (NFTs). Please read the [Investor Warning](./investor-warning) page if you are considering buying 14Numbers NFTs.
 <br>
 
-
-# Roadmap
-
-The roadmap for 14Numbers (as of May 2025) is:
-
-* Android support
-* Improve experience for tablets.
-* Play animation.
-* Annimation for publish and claim. 
-* Pets and discs.
-
