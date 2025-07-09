@@ -15,13 +15,13 @@ permalink: /14numbers/download/
   <td></td>
 </tr>
 <tr>
-  <td><a href="https://apps.apple.com/au/app/14numbers/id6739795765"><img src="apple-store.svg" width="300"></a></td>
+  <td><a href="https://apps.apple.com/au/app/14numbers/id6739795765"><img src="apple-store.svg"></a></td>
   <td valign="top">For iPhone and iPad, install the 14Numbers app via Apple App Store.<br>
   Link: <a href="https://apps.apple.com/au/app/14numbers/id6739795765">https://apps.apple.com/au/app/14numbers/id6739795765</a></td>
 </tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr>
-  <td><a href="https://play.google.com/store/apps/details?id=com.whatgamestudios.numbers"><img src="google-play.png" width="300"></a></td>
+  <td><a href="https://play.google.com/store/apps/details?id=com.whatgamestudios.numbers"><img src="google-play.png"></a></td>
   <td valign="top">Android phones and tablets (Samsung, Motorola, and more), install the 14Numbers app via Google Play.<br>
   Link: <a href="https://play.google.com/store/apps/details?id=com.whatgamestudios.numbers">https://play.google.com/store/apps/details?id=com.whatgamestudios.numbers</a></td>
 </tr>
