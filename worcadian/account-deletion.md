@@ -1,12 +1,12 @@
 ---
 layout: numberspage
-title: 14Numbers Account Deletion
-permalink: /14numbers/account-deletion/
+title: Worcadian Account Deletion
+permalink: /worcadian/account-deletion/
 ---
 
 # Account Deletion
 
-14Numbers uses the Immutable Passport Wallet to hold all account information. Go to this link for information on how to delete your Passport account [https://support.immutable.com/docs/immutable-passport/security-and-privacy/deleting-my-passport-account](https://support.immutable.com/docs/immutable-passport/security-and-privacy/deleting-my-passport-account)
+Worcadian uses the Immutable Passport Wallet to hold all account information. Go to this link for information on how to delete your Passport account [https://support.immutable.com/docs/immutable-passport/security-and-privacy/deleting-my-passport-account](https://support.immutable.com/docs/immutable-passport/security-and-privacy/deleting-my-passport-account)
 
 Immutable Passport uses social login via Google, Apple or Facebook. Links for deleting these accounts:
 
