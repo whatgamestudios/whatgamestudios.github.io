@@ -13,7 +13,7 @@ permalink: /worcadian/
 <table>
 <tbody>
 <tr>
-  <td><img src="./nfts/scenes.png" width="1000">
+  <td><img src="./worcadian.png" width="1000">
   <td valign="top">Worcadian is a puzzle game. Everyone in the world is trying to solve the same puzzle each day. Starting with a seed word, create as many words as you can using only the letters A to Z.</td>
   </td>
 </tr>
@@ -26,16 +26,16 @@ permalink: /worcadian/
 
 The screen background used in game can be changed by going to the Scene screen. Players earn new Scene NFTs each 30 days of game play. If you can't wait, you want a specific one, or you want to sell one you have earned, go to the [Token Trove](https://tokentrove.com/collection/14NumbersScenes) market place. 
 
-The NFTs used in this game are also used in the [14Numbers game](../14Numbers).
+The NFTs used in this game are also used in the [14Numbers game](../14numbers).
 
 <table>
 <tbody>
 <tr>
-  <td valign="top"><a href="../14Numbers/nfts#gen1">Gen1 NFTs</a> were released in April 18, 2025. This first release has four NFTs: Golden Fans, Bright Cats, Fantasy Flowers, and Yellow Flowers.
+  <td valign="top"><a href="../14numbers/nfts#gen1">Gen1 NFTs</a> were released in April 18, 2025. This first release has four NFTs: Golden Fans, Bright Cats, Fantasy Flowers, and Yellow Flowers.
   <br><br>
-  <a href="../14Numbers/nfts#gen2">Gen2 NFTs</a> were released in May 18, 2025. This second release has seven NFTs: Clocks, Cats, Tea, Circuit, Wild Tea, Space, and Garden.
+  <a href="../14numbers/nfts#gen2">Gen2 NFTs</a> were released in May 18, 2025. This second release has seven NFTs: Clocks, Cats, Tea, Circuit, Wild Tea, Space, and Garden.
   </td>
-  <td><a href="../14Numbers/nfts.md"><img src="../14Numbers//nfts/100goldenfans.png" width="500"></a>
+  <td><a href="../14numbers/nfts.md"><img src="../14numbers/nfts/100goldenfans.png" width="500"></a>
   </td>
 </tr>
 </tbody>

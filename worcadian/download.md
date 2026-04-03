@@ -15,7 +15,7 @@ Worcadian will be available in Apple App Store and Google Play for Android devic
   <td></td>
 </tr>
 <tr>
-  <td><a href="https://apps.apple.com/au/app/14numbers/id6739795765"><img src="apple-store.svg" width="300"></a></td>
+  <td><img src="apple-store.svg" width="300"></td>
   <td valign="top">For iPhone and iPad: Coming soon/td>
 </tr>
 <tr><td colspan=3>&nbsp;</td></tr>

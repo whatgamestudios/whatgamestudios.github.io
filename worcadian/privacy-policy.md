@@ -1,7 +1,7 @@
 ---
-layout: numberspage
-title: 14Numbers Privacy Policy
-permalink: /14numbers/privacy-policy/
+layout: letterspage
+title: Worcadian Privacy Policy
+permalink: /worcadian/privacy-policy/
 ---
 
 # Privacy Policy
