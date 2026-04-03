@@ -16,3 +16,16 @@
     - subtitle: "Investor Warning"
       subhref: "/14numbers/investor-warning"
 
+- title: "Worcadian"
+  href: "/worcadian/"
+  subcategories:
+    - subtitle: "Download"
+      subhref: "/worcadian/download"
+    - subtitle: "NFTs"
+      subhref: "/worcadian/nfts"
+    - subtitle: "Privacy Policy"
+      subhref: "/worcadian/privacy-policy"
+    - subtitle: "Account Deletion"
+      subhref: "/worcadian/account-deletion"
+    - subtitle: "Investor Warning"
+      subhref: "/worcadian/investor-warning"
