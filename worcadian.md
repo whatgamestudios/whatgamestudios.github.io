@@ -1,5 +1,5 @@
 ---
-layout: numberspage
+layout: letterspage
 title: Worcadian
 permalink: /worcadian/
 ---

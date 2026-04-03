@@ -6,9 +6,9 @@ permalink: /14numbers/privacy-policy/
 
 # Privacy Policy
 
-Whatgame Studios takes your privacy seriously. In 14Numbers, we do not automatically gather any user specific data from game players' devices. 
+Whatgame Studios takes your privacy seriously. In Worcadian, we do not automatically gather any user specific data from game players' devices. 
 
-That said, 14Numbers uses Immutable zkEVM blockchain to record information. The information is recorded against your blockchain account number. This is the number you can see at the bottom of the menu screen when you are logged in. 
+That said, Worcadian uses Immutable zkEVM blockchain to record information. The information is recorded against your blockchain account number. This is the number you can see at the bottom of the menu screen when you are logged in. 
 
 Situations in which a blockchain transactions is submitted:
 

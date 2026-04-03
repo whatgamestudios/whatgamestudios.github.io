@@ -1,10 +1,10 @@
 ---
-layout: numberspage
-title: 14Numbers Download
-permalink: /14numbers/download/
+layout: letterspage
+title: Worcadian Download
+permalink: /worcadian/download/
 ---
 
-<img style="float: right;" src="../14numbers-logo.png"  width="100">
+<img style="float: right;" src="../worcadian-logo.png"  width="100">
 
 Worcadian will be available in Apple App Store and Google Play for Android devices soon.
 
@@ -16,8 +16,7 @@ Worcadian will be available in Apple App Store and Google Play for Android devic
 </tr>
 <tr>
   <td><a href="https://apps.apple.com/au/app/14numbers/id6739795765"><img src="apple-store.svg" width="300"></a></td>
-  <td valign="top">For iPhone and iPad, install the Worcadian app via Apple App Store.<br>
-  Link: <a href="https://apps.apple.com/au/app/14numbers/id6739795765">https://apps.apple.com/au/app/14numbers/id6739795765</a></td>
+  <td valign="top">For iPhone and iPad: Coming soon/td>
 </tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr>

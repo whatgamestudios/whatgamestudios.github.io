@@ -1,5 +1,5 @@
 ---
-layout: numberspage
+layout: letterspage
 title: Worcadian Account Deletion
 permalink: /worcadian/account-deletion/
 ---
