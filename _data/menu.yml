@@ -21,8 +21,6 @@
   subcategories:
     - subtitle: "Download"
       subhref: "/worcadian/download"
-    - subtitle: "NFTs"
-      subhref: "/worcadian/nfts"
     - subtitle: "Privacy Policy"
       subhref: "/worcadian/privacy-policy"
     - subtitle: "Account Deletion"
