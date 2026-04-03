@@ -16,7 +16,8 @@ Worcadian will be available in Apple App Store and Google Play for Android devic
 </tr>
 <tr>
   <td><img src="apple-store.svg" width="300"></td>
-  <td valign="top">For iPhone and iPad: Coming soon/td>
+  <td>&nbsp;</td>
+  <td valign="top">For iPhone and iPad: Coming soon</td>
 </tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr>
