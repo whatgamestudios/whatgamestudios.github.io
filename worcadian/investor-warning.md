@@ -6,7 +6,7 @@ permalink: /worcadian/investor-warning/
 
 # Investor Warning
 
-Worcadian uses Non-Fungible Tokens (NFTs). Game players acquire these NFTs in game each month of game play. Additionally, they may choose to purchase these NFTs via peer to peer selling or on a secondary market. 
+Worcadian does not currently use Non-Fungible Tokens (NFTs). However, in future versions of the game players will acquire NFTs as badges as a part of game play. Additionally, they may choose to purchase these NFTs via peer to peer selling or on a secondary market. 
 
 If you are considering buying an NFT remember: 
 

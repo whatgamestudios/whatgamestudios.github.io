@@ -22,27 +22,6 @@ permalink: /worcadian/
 
 <br>
 
-# Scenes NFTs
-
-The screen background used in game can be changed by going to the Scene screen. Players earn new Scene NFTs each 30 days of game play. If you can't wait, you want a specific one, or you want to sell one you have earned, go to the [Token Trove](https://tokentrove.com/collection/14NumbersScenes) market place. 
-
-The NFTs used in this game are also used in the [14Numbers game](../14numbers).
-
-<table>
-<tbody>
-<tr>
-  <td valign="top"><a href="../14numbers/nfts#gen1">Gen1 NFTs</a> were released in April 18, 2025. This first release has four NFTs: Golden Fans, Bright Cats, Fantasy Flowers, and Yellow Flowers.
-  <br><br>
-  <a href="../14numbers/nfts#gen2">Gen2 NFTs</a> were released in May 18, 2025. This second release has seven NFTs: Clocks, Cats, Tea, Circuit, Wild Tea, Space, and Garden.
-  </td>
-  <td><a href="../14numbers/nfts.md"><img src="../14numbers/nfts/100goldenfans.png" width="500"></a>
-  </td>
-</tr>
-</tbody>
-</table>
-
-<br>
-
 # Download
 Worcadian can be downloaded via our [Download Page](./download).
 <br>
@@ -59,14 +38,4 @@ Information about how to delete your account related to Worcadian is contained o
 Worcadian uses Non-Fungible Tokens (NFTs). Please read the [Investor Warning](./investor-warning) page if you are considering buying Worcadian NFTs.
 <br>
 
-
-# Roadmap
-
-The roadmap for 14Numbers (as of May 2025) is:
-
-* Android support
-* Improve experience for tablets.
-* Play animation.
-* Annimation for publish and claim. 
-* Pets and discs.
 

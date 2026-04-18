@@ -12,8 +12,8 @@ That said, Worcadian uses Immutable zkEVM blockchain to record information. The 
 
 Situations in which a blockchain transactions is submitted:
 
-* Each day you play the game. We do this so that we can calculate how many days it is before you can claim your next Scene NFT.
-* When you claim a Scene NFT. We do this so that we can update the state to indicate you have claimed the NFT and to transfer the NFT ownership to your account.
+* Each day you play the game. We do this so that we can understand how many people are playing the game. In future versions, this will be used for determining qualification for badges.
+* In future versions, when you claim a Badge NFT. We do this so that we can update the state to indicate you have claimed the NFT and to transfer the NFT ownership to your account.
 * When you submit the best solution for the day.
 
 If you wish to completely avoid these blockchain transactions, play the game while not being signed in. 
