@@ -15,7 +15,7 @@ Worcadian is available in Apple App Store now and will soon be available on Goog
 </tr>
 <tr><td>&nbsp;</td></tr>
 <tr>
-  <td>Android coming soon</td>
+  <td><a href="https://play.google.com/store/apps/details?id=com.whatgamestudios.worcadian"><img src="google-play.png" width=300></a></td>
 </tr>
 </tbody>
 </table>
@@ -30,8 +30,8 @@ Worcadian is available in Apple App Store now and will soon be available on Goog
 </tr>
 <tr><td>&nbsp;</td></tr>
 <tr>
-  <td valign="top">Android phones and tablets (Samsung, Motorola, and more), install the 14Numbers app via Google Play.<br>
-  Link: Coming Soon</td>
+  <td valign="top">Android phones and tablets (Samsung, Motorola, and more), install the Worcadian app via Google Play.<br>
+  Link: <a href="https://play.google.com/store/apps/details?id=com.whatgamestudios.worcadian">https://play.google.com/store/apps/details?id=com.whatgamestudios.worcadian</a></td>
 </tr>
 </tbody>
 </table>
