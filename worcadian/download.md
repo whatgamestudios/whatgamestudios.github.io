@@ -6,7 +6,7 @@ permalink: /worcadian/download/
 
 <img style="float: right;" src="../worcadian-logo.png"  width="100">
 
-Worcadian is available in Apple App Store now and will soon be available on Google Play for Android devices soon.
+Worcadian is available in Apple App Store and on Google Play for Android devices.
 
 <table style="width:100%">
 <tbody>
