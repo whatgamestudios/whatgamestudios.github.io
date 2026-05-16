@@ -25,5 +25,7 @@
       subhref: "/worcadian/privacy-policy"
     - subtitle: "Account Deletion"
       subhref: "/worcadian/account-deletion"
+    - subtitle: "Data Deletion"
+      subhref: "/worcadian/data-deletion"
     - subtitle: "Investor Warning"
       subhref: "/worcadian/investor-warning"

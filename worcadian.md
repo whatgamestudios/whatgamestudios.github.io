@@ -34,6 +34,10 @@ Information about your data and Worcadian is contained our our [Privacy Policy](
 Information about how to delete your account related to Worcadian is contained our our [Account Deletion](./account-deletion) page.
 <br>
 
+# Data Deletion
+Information about how to request your data be deleted related to Worcadian is contained our our [Data Deletion](./data-deletion) page.
+<br>
+
 # Investor Warning
 Worcadian uses Non-Fungible Tokens (NFTs). Please read the [Investor Warning](./investor-warning) page if you are considering buying Worcadian NFTs.
 <br>
